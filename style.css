@@ -1,0 +1,423 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header
+{
+   width: 100%; 
+   height: 100px;
+   background-color:rgb(12, 11, 11);
+   padding:20px;
+   position:absolute;
+   top:0;
+
+}
+
+
+.banner-container{
+    margin-top: 200px;
+}
+
+.container {
+    margin-top:-40px ;
+   
+    font-family: sans-serif;
+    font-weight: bold;
+    }
+.navbar a{
+    margin-left: 10px;
+    text-decoration:lawngreen;
+    color: lightcyan; 
+}
+.navbar a:hover
+{
+    cursor: pointer;
+    color:white;
+    text-decoration: none;
+}
+.top{
+    margin-left: 600px;
+  margin-top: -15px;
+  font-size: 17px;
+  
+
+}
+.banner-container{
+    width: 100%;
+    height: 500px;
+    margin-top:100px;
+    background-image:url("./images/cafe-backgound.jpg");
+    background-position: center;
+    filter:brightness(.45);
+    display: flex;
+}
+
+.left-container{
+    margin-top: 150px;
+    margin-left: 100px;
+
+}
+.left-container h1{
+    font-weight:bold;
+    font-size: 50px;
+    font-family:'Times New Roman';
+    color:black
+   /* color:rgb(85, 81, 81);*/
+}
+.left-container p{
+    font-weight:bold;
+    font-family:'Times New Roman';
+    color:rgb(85, 81, 81);
+    font-size: 16px;
+   padding-left: 5px;
+}
+.left-container button{
+    color: white;
+    background-color: sienna;
+    border:none;
+    padding: 12px 30px;
+    border-radius: 6px;
+    margin-top: 15px;
+    margin-left: 100px;
+}
+.about-container{
+
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    filter:brightness(.8);
+    margin-top: -20px;
+}
+.about-container h1{
+    
+    font-family: "Lucida Console";
+    font-weight: bold;
+    color: whitesmoke;
+    margin-top: 20px;
+    margin-left: 550px;
+    font-size: 40px;
+}
+
+
+.about{
+    display: flex;
+}
+
+
+
+
+.left-about{
+    width: 50%;
+    height: 400px;
+    margin-left: 52px;
+    margin-top: 30px;
+    border-radius: 24px 36px;
+    box-shadow: whitesmoke;
+    background-image: url("./images/photo-1592663527359-cf6642f54cff.jpg");
+  /* background-image: url("./images/cafe.jpg");*/
+   background-repeat: no-repeat;
+  
+   
+}
+.right-about{
+    width: 50%;
+    height: 400px;
+    margin-top: 30px;
+    background-color: black;
+}
+
+.right-about h1{
+    margin-left: 50px;
+    cursor: pointer;
+}
+.right-about h1:hover{
+    color: burlywood;
+    
+}
+.right-about p{
+    font-size: 25px;
+    margin-left: 25px;
+    font-family:cursive;
+    color: white;
+    cursor: pointer;
+}
+.right-about p:hover{
+    color: burlywood;
+    
+}
+.menu-container{
+    background-color: black;
+    margin-top: -20px;
+    justify-content: space-between;
+    flex-direction: row;
+    
+    
+}
+
+.menu-container h1{
+    font-family: "Lucida Console";
+    font-weight: bold;
+    color: whitesmoke;
+    margin-top: 20px;
+    margin-left: 550px;
+    font-size: 40px;
+}
+.menu-container h1:hover{
+    color: burlywood;
+}
+.menu1-container
+{
+    width:300px;
+    border-radius: 15px;
+    box-shadow:10px 5px 26px rgb(136, 136, 136);
+    overflow: hidden;
+    text-align-last: center;
+    margin-left: 55px;
+    
+}
+.image-container{
+
+    width: 100%;
+    height: 300px;
+}
+.image-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: .5s ease-in-out;
+}
+.menu1-container h2{
+
+    font-family: "Lucida Console";
+    font-weight: bold;
+    color: whitesmoke;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 30px;
+}
+.menu1-container h3{
+    font-family: "Lucida Console";
+    font-weight: bold;
+    color: whitesmoke;
+    margin-top: -10px;
+    margin-left: 10px;
+    font-size: 30px;
+    padding:-5px -5px;
+}
+.menu1-container button{
+    color: white;
+    background-color: sienna;
+    border:none;
+    padding: 12px 30px;
+    border-radius: 6px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left:15px;
+}
+
+.menu2-container{
+    margin-top: 50px;
+    justify-content:space-evenly;
+    flex-direction: row;
+  
+    
+    
+}
+
+.menu3-container{
+    
+    display: flex;
+     justify-content: space-between;
+     background-color: black;
+      
+   padding: 30px;
+}
+
+.product-container{
+    width: 100%;
+    height: 500px;
+    margin-top: -20px;
+    background-color: black;
+}
+
+.product-container h1{
+     font-family: "Lucida Console";
+    font-weight: bold;
+
+    color: whitesmoke;
+    margin-top: 20px;
+    margin-left: 550px;
+    font-size: 40px;
+    
+
+}
+.product-container h1:hover{
+    cursor: pointer;
+    color: coral;
+}
+
+.leftproduct-about{
+    width: 50%;
+    height: 400px;
+    margin-left: 52px;
+    margin-top: 30px;
+    border-radius: 24px 36px;
+    box-shadow: whitesmoke;
+    background-image: url("./images/cake.jpg");
+  /* background-image: url("./images/cafe.jpg");*/
+   background-repeat: no-repeat;
+  
+   
+}
+.rightproduct-about p{
+    font-size: 25px;
+    font-style: italic;
+    margin-left: -25px;
+    margin-top:50px;
+    font-family:cursive;
+    color: white;
+    cursor: pointer;
+}
+.leftproduct2-about{
+    width: 50%;
+    height: 300px;
+    margin-left: 52px;
+    margin-top: 30px;
+    border-radius: 20px 25px;
+    box-shadow: whitesmoke;
+    background-image: url("./images/pizza.jpg");
+  /* background-image: url("./images/cafe.jpg");*/
+   background-repeat: no-repeat;
+  
+   
+}
+.rightproduct2-about p{
+    font-size: 25px;
+    font-style: italic;
+    margin-left: 20px;
+    margin-top:50px;
+    font-family:cursive;
+    color: white;
+    cursor: pointer;
+}
+.leftproduct3-about{
+    width: 50%;
+    height: 300px;
+    margin-left: 52px;
+    margin-top: 30px;
+    border-radius: 20px 25px;
+    box-shadow: whitesmoke;
+    background-image: url("./images/cafe\ ambiance.jpg");
+  /* background-image: url("./images/cafe.jpg");*/
+   background-repeat: no-repeat;
+  
+   
+}
+.rightproduct3-about p{
+    font-size: 25px;
+    font-style: italic;
+    margin-left:20px;
+    margin-top:50px;
+    font-family:cursive;
+    color: white;
+    cursor: pointer;
+}
+.blog-container{
+    width:100%;
+    height: 300px;
+    background-color:burlywood;
+}
+.blog h1{
+    font-family: "Lucida Console";
+    font-weight: bold;
+
+    color: whitesmoke;
+    margin-top: -20px;
+    margin-left: 550px;
+    font-size: 40px;
+    
+}
+.blog h1:hover{
+    color:  sienna;;
+}
+.section-two{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100vh;
+    align-items: center;
+    margin-top: -100px;
+    background-color: black;
+}
+
+
+.card-container
+{
+    width:350px;
+    margin-left: 50px;
+    border-radius: 15px;
+    box-shadow:10px 5px 26px rgb(136, 136, 136);
+    overflow: hidden;
+    text-align-last: center;
+}
+.card-container h1{
+    color: rgb(136,136,136);
+}
+
+
+.image-container{
+
+    width: 100%;
+    height: 300px;
+    
+}
+
+.image-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+    
+}
+.star{
+
+
+    font-size: 25px;
+    color: burlywood;
+}
+
+.checked{
+    color: orange;
+}
+.card-container p{
+    font-family: Times New Roman;
+    color: papayawhip;
+padding-left: 12px;
+}
+
+.footer-container{
+    width: 100%;
+    height:300px; 
+    background-color: rgb(24, 24, 24); 
+    margin-top: -80px;
+}
+.footer-container h3{
+   margin-left: 100px;
+   margin-top: 75px;
+   font-family: 'Times New Roman';
+   color:darkgrey;
+}
+.footer-container p{
+    margin-left: 50%;
+    color: darkgrey;
+}
+
+
+
+
